@@ -14,7 +14,7 @@ export default function Layout({
   setopenMenu,
 }) {
   return (
-    <div className=" w-[100vw] h-[100vh] flex flex-col gap-5 bg-[#F5F5F5] max-[1000px]:h-[100vh] max-[1000px]:w-[100vw] relative">
+    <div className=" w-[100%] h-[100vh] flex flex-col gap-5 bg-[#F5F5F5] max-[1000px]:h-[100vh] max-[1000px]:w-[100vw] relative">
       <Toaster position="top-center" />
       <TopBar_layout />
       <div className=" flex gap-5 px-4 max-[1000px]:w-[100%] max-[1000px]:h-[100%]">
