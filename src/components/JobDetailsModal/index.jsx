@@ -330,7 +330,9 @@ export default function JobDetailsModal({
                         btn2Name={btn2Name}
                         Btn1OnClick={Btn1OnClick}
                         Btn2OnClick={Btn2OnClick}
-                        singleJob={singleJob}
+                        jobs={singleJob}
+                        inputData={inputDatas}
+                        setinputData={setinputDatas}
                       />
                     )}
                     {selectedTab === "company" && (

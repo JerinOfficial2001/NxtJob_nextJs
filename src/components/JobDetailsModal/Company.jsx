@@ -25,7 +25,7 @@ export default function Company({ jobs, inputDatas, setinputDatas }) {
          };
          await dispatch(editJob(body));
          dispatch(getJobById(body?.id));
-         setchange(false);
+         setchange(false);jobDescription;
         toast.success("Job Updated Successfully")
     } else {
       toast.error("You have missed some field!")
