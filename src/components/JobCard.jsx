@@ -218,18 +218,18 @@ const JobCard = ({ job, setclose, index }) => {
             setletterHover={setHover}
             title={"Cover Letter"}
             name={"Cover Letter Name"}
-            customClass={" left-20"}
+            customClass={" left-0"}
           />
         )}
         {hover === "interview" &&
           (job.mockInterviewName > 0 ? (
-            <MockInterviewCard setinterviewHover={setHover} job={job} />
+            <MockInterviewCard setinterviewHover={setHover} job={job} customClass={"left-10"} />
           ) : (
             <LetterCard
               setletterHover={setHover}
               title={"Mock Interview"}
               name={"Mock Interview Name"}
-              customClass={"  left-40"}
+              customClass={"  left-0"}
             />
           ))}
       </div>

@@ -14,13 +14,15 @@ export default function MockInterviewCard({
 }) {
   return (
     <MotionCard
+  
       onMouseLeave={() => {
         setinterviewHover("");
       }}
       customClass={classNames(
         customClass,
-        "bg-white h-[293px] w-[213px] absolute top-[100px] left-40 max-[1000px]:left-12"
+        "bg-white h-[293px] w-[213px] absolute top-[100px] left-40  max-[1000px]:left-12"
       )}
+      
       hoverItem={
         <div className="flex flex-col justify-center gap-3 ">
           <div className="flex flex-col justify-center">
