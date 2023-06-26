@@ -368,7 +368,7 @@ export default function JobDetailsModal({
                       />
                     )}
                   </div>
-                  <div className="w-[15vw] h-[50vh] bg-[#F9F8F8] rounded-lg max-[1000px]:hidden">
+                  <div className="w-[15vw] h-[55vh] bg-[#F9F8F8] rounded-lg max-[1000px]:hidden">
                     <Stepper />
                   </div>
                 </div>
